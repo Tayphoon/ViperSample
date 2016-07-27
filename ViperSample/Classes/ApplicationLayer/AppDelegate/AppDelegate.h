@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol ApplicationConfigurator;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+@property (strong, nonatomic) id <ApplicationConfigurator> applicationConfigurator;
+
 @property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) UINavigationController * navigationController;
 
 @end
 

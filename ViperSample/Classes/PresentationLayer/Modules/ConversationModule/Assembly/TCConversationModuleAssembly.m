@@ -11,6 +11,7 @@
 #import "TCConversationRouter.h"
 #import "TCConversationPresenter.h"
 #import "TCConversationInteractor.h"
+#import "TCLayerMessagesService.h"
 
 @interface TCConversationModuleAssembly()
 
@@ -41,8 +42,10 @@
     TCConversationInteractor * interactor = [[TCConversationInteractor alloc] init];
     TCConversationController * controller = [[TCConversationController alloc] init];
     TCConversationPresenter * presenter = [[TCConversationPresenter alloc] init];
+    TCLayerMessagesService * messagesService = [[TCLayerMessagesService alloc] init];
     
     interactor.output = presenter;
+    interactor.messagesService = messagesService;
     
     presenter.view = controller;
     presenter.interactor = interactor;

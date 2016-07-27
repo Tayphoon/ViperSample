@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "TCConversationModuleAssembly.h"
+#import "ApplicationConfiguratorImpl.h"
 
 @interface AppDelegate()
 
@@ -21,6 +22,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.applicationConfigurator = [ApplicationConfiguratorImpl new];
+    [self.applicationConfigurator setupShredServices];
     
     self.conversationAssembly = [[TCConversationModuleAssembly alloc] init];
     [self.conversationAssembly installRootViewControllerIntoWindow:self.window];

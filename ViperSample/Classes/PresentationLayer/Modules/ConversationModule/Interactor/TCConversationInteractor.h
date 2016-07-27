@@ -10,9 +10,11 @@
 #import "TCConversationInteractorInput.h"
 
 @protocol TCConversationInteractorOutput;
+@protocol TCMessagesService;
 
 @interface TCConversationInteractor : NSObject<TCConversationInteractorInput>
 
 @property (nonatomic, weak) id<TCConversationInteractorOutput> output;
+@property (strong, nonatomic) id <TCMessagesService> messagesService;
 
 @end

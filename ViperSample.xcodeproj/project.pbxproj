@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4683521E74980E66EA6ECDEF /* Pods_ViperSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3929B169A2565488967936FD /* Pods_ViperSample.framework */; };
 		73396FB41D48A0D0006B33B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73396FB31D48A0D0006B33B0 /* main.m */; };
 		73396FBF1D48A0D0006B33B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73396FBE1D48A0D0006B33B0 /* Assets.xcassets */; };
 		73396FC21D48A0D0006B33B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73396FC01D48A0D0006B33B0 /* LaunchScreen.storyboard */; };
@@ -16,10 +17,14 @@
 		733970811D48BC05006B33B0 /* TCConversationPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 733970801D48BC05006B33B0 /* TCConversationPresenter.m */; };
 		733970871D48BD88006B33B0 /* TCConversationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733970861D48BD88006B33B0 /* TCConversationController.m */; };
 		7339708A1D48C118006B33B0 /* TCConversationRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 733970891D48C118006B33B0 /* TCConversationRouter.m */; };
+		733970991D48F60B006B33B0 /* ApplicationConfiguratorImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 733970981D48F60B006B33B0 /* ApplicationConfiguratorImpl.m */; };
+		7339709F1D48F7BB006B33B0 /* TCLayerMessagesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7339709E1D48F7BB006B33B0 /* TCLayerMessagesService.m */; };
 		CA90C358DCD43A554E1DF778 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A73E6E7D5595BC2C779E38B6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		075B48F0F3B0BF96B90B2E0D /* Pods-ViperSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperSample/Pods-ViperSample.release.xcconfig"; sourceTree = "<group>"; };
+		3929B169A2565488967936FD /* Pods_ViperSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73396FAF1D48A0D0006B33B0 /* ViperSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73396FB31D48A0D0006B33B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73396FBE1D48A0D0006B33B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +49,13 @@
 		733970891D48C118006B33B0 /* TCConversationRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConversationRouter.m; sourceTree = "<group>"; };
 		7339708B1D48C132006B33B0 /* TCConversationRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationRouterInput.h; sourceTree = "<group>"; };
 		7339708C1D48C1C9006B33B0 /* Viper Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Viper Sample-Prefix.pch"; sourceTree = "<group>"; };
+		733970961D48F5D1006B33B0 /* ApplicationConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationConfigurator.h; sourceTree = "<group>"; };
+		733970971D48F60B006B33B0 /* ApplicationConfiguratorImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationConfiguratorImpl.h; sourceTree = "<group>"; };
+		733970981D48F60B006B33B0 /* ApplicationConfiguratorImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationConfiguratorImpl.m; sourceTree = "<group>"; };
+		7339709C1D48F7A4006B33B0 /* TCMessagesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMessagesService.h; sourceTree = "<group>"; };
+		7339709D1D48F7BB006B33B0 /* TCLayerMessagesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLayerMessagesService.h; sourceTree = "<group>"; };
+		7339709E1D48F7BB006B33B0 /* TCLayerMessagesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLayerMessagesService.m; sourceTree = "<group>"; };
+		83288893BA87FEEF5F33EFE0 /* Pods-ViperSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperSample/Pods-ViperSample.debug.xcconfig"; sourceTree = "<group>"; };
 		A73E6E7D5595BC2C779E38B6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DFA0FB003FAE8964C07D5C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C8DA2CA4506CD074707C43BF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -55,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA90C358DCD43A554E1DF778 /* libPods.a in Frameworks */,
+				4683521E74980E66EA6ECDEF /* Pods_ViperSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +79,8 @@
 			children = (
 				A7DFA0FB003FAE8964C07D5C /* Pods.debug.xcconfig */,
 				C8DA2CA4506CD074707C43BF /* Pods.release.xcconfig */,
+				83288893BA87FEEF5F33EFE0 /* Pods-ViperSample.debug.xcconfig */,
+				075B48F0F3B0BF96B90B2E0D /* Pods-ViperSample.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -74,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				A73E6E7D5595BC2C779E38B6 /* libPods.a */,
+				3929B169A2565488967936FD /* Pods_ViperSample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,6 +155,7 @@
 		73396FCD1D48AA0D006B33B0 /* ApplicationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				733970951D48F5BF006B33B0 /* ApplicationConfigurator */,
 				73396FCF1D48AA36006B33B0 /* AppDelegate */,
 				73396FCE1D48AA21006B33B0 /* Assemblies */,
 			);
@@ -174,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				73396FD71D48B7C0006B33B0 /* Assemblies */,
+				7339709A1D48F77B006B33B0 /* Services */,
 			);
 			path = BusinessLogicLayer;
 			sourceTree = "<group>";
@@ -270,6 +288,34 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		733970951D48F5BF006B33B0 /* ApplicationConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				733970961D48F5D1006B33B0 /* ApplicationConfigurator.h */,
+				733970971D48F60B006B33B0 /* ApplicationConfiguratorImpl.h */,
+				733970981D48F60B006B33B0 /* ApplicationConfiguratorImpl.m */,
+			);
+			path = ApplicationConfigurator;
+			sourceTree = "<group>";
+		};
+		7339709A1D48F77B006B33B0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7339709B1D48F78D006B33B0 /* MessagesService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7339709B1D48F78D006B33B0 /* MessagesService */ = {
+			isa = PBXGroup;
+			children = (
+				7339709C1D48F7A4006B33B0 /* TCMessagesService.h */,
+				7339709D1D48F7BB006B33B0 /* TCLayerMessagesService.h */,
+				7339709E1D48F7BB006B33B0 /* TCLayerMessagesService.m */,
+			);
+			name = MessagesService;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -350,7 +396,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperSample/Pods-ViperSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2CEFFB9016F36455DF92EC60 /* Check Pods Manifest.lock */ = {
@@ -380,7 +426,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperSample/Pods-ViperSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -391,11 +437,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				73396FD21D48AA4A006B33B0 /* AppDelegate.m in Sources */,
+				733970991D48F60B006B33B0 /* ApplicationConfiguratorImpl.m in Sources */,
 				7339708A1D48C118006B33B0 /* TCConversationRouter.m in Sources */,
 				7339707C1D48BA82006B33B0 /* TCConversationInteractor.m in Sources */,
 				733970791D48BA16006B33B0 /* TCConversationModuleAssembly.m in Sources */,
 				733970871D48BD88006B33B0 /* TCConversationController.m in Sources */,
 				733970811D48BC05006B33B0 /* TCConversationPresenter.m in Sources */,
+				7339709F1D48F7BB006B33B0 /* TCLayerMessagesService.m in Sources */,
 				73396FB41D48A0D0006B33B0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,7 +547,7 @@
 		};
 		73396FC71D48A0D0006B33B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7DFA0FB003FAE8964C07D5C /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 83288893BA87FEEF5F33EFE0 /* Pods-ViperSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -514,7 +562,7 @@
 		};
 		73396FC81D48A0D0006B33B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8DA2CA4506CD074707C43BF /* Pods.release.xcconfig */;
+			baseConfigurationReference = 075B48F0F3B0BF96B90B2E0D /* Pods-ViperSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
