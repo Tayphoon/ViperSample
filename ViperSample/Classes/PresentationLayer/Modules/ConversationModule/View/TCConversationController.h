@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TCConversationViewInput.h"
 
-@interface TCConversationController : UIViewController
+@protocol TCConversationViewOutput;
+
+@interface TCConversationController : UIViewController<TCConversationViewInput>
+
+@property (nonatomic, strong) id<TCConversationViewOutput> output;
 
 @end

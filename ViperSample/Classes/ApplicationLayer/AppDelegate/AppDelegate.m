@@ -7,9 +7,11 @@
 //
 
 #import "AppDelegate.h"
-#import "TCViewController.h"
+#import "TCConversationModuleAssembly.h"
 
-@interface AppDelegate ()
+@interface AppDelegate()
+
+@property (nonatomic, strong) TCConversationModuleAssembly * conversationAssembly;
 
 @end
 
@@ -19,10 +21,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.conversationAssembly = [[TCConversationModuleAssembly alloc] init];
+    [self.conversationAssembly installRootViewControllerIntoWindow:self.window];
 
-    TCViewController * controller = [[TCViewController alloc] init];
-    self.navigationController = [[UINavigationController alloc] initWithRootViewController:controller];
-    self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     
     return YES;

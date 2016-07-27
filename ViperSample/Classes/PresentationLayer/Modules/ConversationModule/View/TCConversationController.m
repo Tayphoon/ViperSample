@@ -7,7 +7,18 @@
 //
 
 #import "TCConversationController.h"
+#import "TCConversationViewOutput.h"
 
 @implementation TCConversationController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+
+    [self.output setupView];
+}
+
+- (void)updateTitle:(NSString*)title {
+    self.title = title;
+}
 
 @end

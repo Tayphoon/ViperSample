@@ -10,4 +10,6 @@
 
 @interface TCConversationModuleAssembly : NSObject
 
+- (void)installRootViewControllerIntoWindow:(UIWindow *)window;
+
 @end

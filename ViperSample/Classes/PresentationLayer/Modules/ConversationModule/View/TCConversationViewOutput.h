@@ -10,4 +10,10 @@
 
 @protocol TCConversationViewOutput <NSObject>
 
+/**
+ 
+ Method is used to inform presenter that view needs to be configuered
+ */
+- (void)setupView;
+
 @end

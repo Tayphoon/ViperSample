@@ -7,7 +7,12 @@
 //
 
 #import "TCConversationPresenter.h"
+#import "TCConversationViewInput.h"
 
 @implementation TCConversationPresenter
+
+- (void)setupView {
+    [self.view updateTitle:@"Conversation"];
+}
 
 @end

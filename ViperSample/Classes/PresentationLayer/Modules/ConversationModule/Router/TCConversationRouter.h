@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TCConversationRouterInput.h"
 
-@interface TCConversationRouter : NSObject
+@interface TCConversationRouter : NSObject<TCConversationRouterInput>
 
 @end

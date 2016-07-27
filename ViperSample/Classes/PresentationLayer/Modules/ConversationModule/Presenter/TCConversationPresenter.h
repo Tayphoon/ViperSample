@@ -7,7 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TCConversationPresenterInput.h"
+#import "TCConversationViewOutput.h"
+#import "TCConversationInteractorOutput.h"
 
-@interface TCConversationPresenter : NSObject
+@protocol TCConversationViewInput;
+@protocol TCConversationInteractorInput;
+@protocol TCConversationRouterInput;
+
+@interface TCConversationPresenter : NSObject<TCConversationPresenterInput, TCConversationViewOutput, TCConversationInteractorOutput>
+
+@property (nonatomic, weak) id<TCConversationViewInput> view;
+@property (nonatomic, strong) id<TCConversationInteractorInput> interactor;
+@property (nonatomic, strong) id<TCConversationRouterInput> router;
 
 @end

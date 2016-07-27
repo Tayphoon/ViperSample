@@ -1,5 +1,5 @@
 //
-//  ConversationInteractor.h
+//  TCConversationInteractor.h
 //  ViperSample
 //
 //  Created by Tayphoon on 27.07.16.
@@ -7,8 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ConversationInteractorInput.h"
+#import "TCConversationInteractorInput.h"
 
-@interface TCConversationInteractor : NSObject
+@protocol TCConversationInteractorOutput;
+
+@interface TCConversationInteractor : NSObject<TCConversationInteractorInput>
+
+@property (nonatomic, weak) id<TCConversationInteractorOutput> output;
 
 @end

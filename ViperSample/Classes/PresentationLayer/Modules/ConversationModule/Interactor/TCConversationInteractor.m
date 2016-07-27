@@ -1,5 +1,5 @@
 //
-//  ConversationInteractor.m
+//  TCConversationInteractor.m
 //  ViperSample
 //
 //  Created by Tayphoon on 27.07.16.

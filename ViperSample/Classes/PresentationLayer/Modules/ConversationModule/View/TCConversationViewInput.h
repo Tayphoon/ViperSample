@@ -10,4 +10,6 @@
 
 @protocol TCConversationViewInput <NSObject>
 
+- (void)updateTitle:(NSString*)title;
+
 @end

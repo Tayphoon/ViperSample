@@ -6,8 +6,9 @@
 //  Copyright © 2016 Tayphoon. All rights reserved.
 //
 
-#ifndef ConversationInteractorOutput_h
-#define ConversationInteractorOutput_h
+#import <Foundation/Foundation.h>
+
+@protocol TCConversationInteractorOutput <NSObject>
 
 
-#endif /* ConversationInteractorOutput_h */
+@end

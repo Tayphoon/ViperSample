@@ -1,0 +1,22 @@
+PODS:
+  - CrutchKit/Proxying (0.0.3):
+    - CrutchKit/Runtime
+  - CrutchKit/Runtime (0.0.3)
+
+DEPENDENCIES:
+  - CrutchKit/Proxying (from `https://github.com/CognitiveDisson/CrutchKit`, tag `0.0.3`)
+
+EXTERNAL SOURCES:
+  CrutchKit:
+    :git: https://github.com/CognitiveDisson/CrutchKit
+    :tag: 0.0.3
+
+CHECKOUT OPTIONS:
+  CrutchKit:
+    :git: https://github.com/CognitiveDisson/CrutchKit
+    :tag: 0.0.3
+
+SPEC CHECKSUMS:
+  CrutchKit: 32f7fc708ce823010b27f5fa7bc11fc22d0e09bb
+
+COCOAPODS: 0.39.0
