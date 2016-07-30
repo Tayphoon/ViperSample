@@ -3,10 +3,16 @@ PODS:
     - CrutchKit/Runtime
   - CrutchKit/Runtime (0.0.3)
   - LayerKit (0.22.0)
+  - OALayoutAnchor (0.2.0)
+  - TCCollections (0.1.1):
+    - TCCollections/Core (= 0.1.1)
+  - TCCollections/Core (0.1.1):
+    - OALayoutAnchor (~> 0.2.0)
 
 DEPENDENCIES:
   - CrutchKit/Proxying (from `https://github.com/CognitiveDisson/CrutchKit`, tag `0.0.3`)
   - LayerKit
+  - TCCollections (~> 0.1.1)
 
 EXTERNAL SOURCES:
   CrutchKit:
@@ -21,5 +27,9 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   CrutchKit: 32f7fc708ce823010b27f5fa7bc11fc22d0e09bb
   LayerKit: dc3f45305bd0d520e5a586247d93c6e03b803ccd
+  OALayoutAnchor: 27a15a06ebfd3bc07de527f6cd4a5a714c47226d
+  TCCollections: 78d6b7d37432a337966ecdc3dd22f6ada415783f
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 46d405d46ed41565dfb7172de0ff874b551a6d08
+
+COCOAPODS: 1.0.0

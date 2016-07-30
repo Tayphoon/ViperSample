@@ -7,12 +7,12 @@
 //
 
 #import "AppDelegate.h"
-#import "TCConversationModuleAssembly.h"
+#import "TCConversationsModuleAssembly.h"
 #import "ApplicationConfiguratorImpl.h"
 
 @interface AppDelegate()
 
-@property (nonatomic, strong) TCConversationModuleAssembly * conversationAssembly;
+@property (nonatomic, strong) TCConversationsModuleAssembly * conversationAssembly;
 
 @end
 
@@ -26,7 +26,7 @@
     self.applicationConfigurator = [ApplicationConfiguratorImpl new];
     [self.applicationConfigurator setupShredServices];
     
-    self.conversationAssembly = [[TCConversationModuleAssembly alloc] init];
+    self.conversationAssembly = [[TCConversationsModuleAssembly alloc] init];
     [self.conversationAssembly installRootViewControllerIntoWindow:self.window];
 
     [self.window makeKeyAndVisible];

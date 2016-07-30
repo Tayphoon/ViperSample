@@ -7,24 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4683521E74980E66EA6ECDEF /* Pods_ViperSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3929B169A2565488967936FD /* Pods_ViperSample.framework */; };
+		5A2F77E02089A19BBAF41754 /* Pods_ViperSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F34A1C3CC9C9B643051973 /* Pods_ViperSample.framework */; };
 		73396FB41D48A0D0006B33B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73396FB31D48A0D0006B33B0 /* main.m */; };
 		73396FBF1D48A0D0006B33B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73396FBE1D48A0D0006B33B0 /* Assets.xcassets */; };
 		73396FC21D48A0D0006B33B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73396FC01D48A0D0006B33B0 /* LaunchScreen.storyboard */; };
 		73396FD21D48AA4A006B33B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73396FD11D48AA4A006B33B0 /* AppDelegate.m */; };
-		733970791D48BA16006B33B0 /* TCConversationModuleAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 733970781D48BA16006B33B0 /* TCConversationModuleAssembly.m */; };
-		7339707C1D48BA82006B33B0 /* TCConversationInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7339707B1D48BA82006B33B0 /* TCConversationInteractor.m */; };
-		733970811D48BC05006B33B0 /* TCConversationPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 733970801D48BC05006B33B0 /* TCConversationPresenter.m */; };
-		733970871D48BD88006B33B0 /* TCConversationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733970861D48BD88006B33B0 /* TCConversationController.m */; };
-		7339708A1D48C118006B33B0 /* TCConversationRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 733970891D48C118006B33B0 /* TCConversationRouter.m */; };
+		733970791D48BA16006B33B0 /* TCConversationsModuleAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 733970781D48BA16006B33B0 /* TCConversationsModuleAssembly.m */; };
+		7339707C1D48BA82006B33B0 /* TCConversationsInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7339707B1D48BA82006B33B0 /* TCConversationsInteractor.m */; };
+		733970811D48BC05006B33B0 /* TCConversationsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 733970801D48BC05006B33B0 /* TCConversationsPresenter.m */; };
+		733970871D48BD88006B33B0 /* TCConversationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733970861D48BD88006B33B0 /* TCConversationsController.m */; };
+		7339708A1D48C118006B33B0 /* TCConversationsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 733970891D48C118006B33B0 /* TCConversationsRouter.m */; };
 		733970991D48F60B006B33B0 /* ApplicationConfiguratorImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 733970981D48F60B006B33B0 /* ApplicationConfiguratorImpl.m */; };
 		7339709F1D48F7BB006B33B0 /* TCLayerMessagesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7339709E1D48F7BB006B33B0 /* TCLayerMessagesService.m */; };
-		CA90C358DCD43A554E1DF778 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A73E6E7D5595BC2C779E38B6 /* libPods.a */; };
+		73EB2E6B1D4D3FDA004F4CB2 /* TCConversationModuleAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EB2E581D4D3FDA004F4CB2 /* TCConversationModuleAssembly.m */; };
+		73EB2E6C1D4D3FDA004F4CB2 /* TCConversationInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EB2E5B1D4D3FDA004F4CB2 /* TCConversationInteractor.m */; };
+		73EB2E6D1D4D3FDA004F4CB2 /* TCConversationPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EB2E601D4D3FDA004F4CB2 /* TCConversationPresenter.m */; };
+		73EB2E6E1D4D3FDA004F4CB2 /* TCConversationRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EB2E641D4D3FDA004F4CB2 /* TCConversationRouter.m */; };
+		73EB2E6F1D4D3FDA004F4CB2 /* TCConversationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EB2E681D4D3FDA004F4CB2 /* TCConversationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		075B48F0F3B0BF96B90B2E0D /* Pods-ViperSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperSample/Pods-ViperSample.release.xcconfig"; sourceTree = "<group>"; };
-		3929B169A2565488967936FD /* Pods_ViperSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73396FAF1D48A0D0006B33B0 /* ViperSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73396FB31D48A0D0006B33B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73396FBE1D48A0D0006B33B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,22 +34,22 @@
 		73396FC31D48A0D0006B33B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73396FD01D48AA4A006B33B0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		73396FD11D48AA4A006B33B0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		733970771D48BA16006B33B0 /* TCConversationModuleAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationModuleAssembly.h; sourceTree = "<group>"; };
-		733970781D48BA16006B33B0 /* TCConversationModuleAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConversationModuleAssembly.m; sourceTree = "<group>"; };
-		7339707A1D48BA82006B33B0 /* TCConversationInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationInteractor.h; sourceTree = "<group>"; };
-		7339707B1D48BA82006B33B0 /* TCConversationInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConversationInteractor.m; sourceTree = "<group>"; };
-		7339707D1D48BA96006B33B0 /* TCConversationInteractorInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCConversationInteractorInput.h; sourceTree = "<group>"; };
-		7339707E1D48BAA2006B33B0 /* TCConversationInteractorOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCConversationInteractorOutput.h; sourceTree = "<group>"; };
-		7339707F1D48BC05006B33B0 /* TCConversationPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationPresenter.h; sourceTree = "<group>"; };
-		733970801D48BC05006B33B0 /* TCConversationPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConversationPresenter.m; sourceTree = "<group>"; };
-		733970821D48BC51006B33B0 /* TCConversationPresenterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationPresenterInput.h; sourceTree = "<group>"; };
-		733970831D48BC9E006B33B0 /* TCConversationViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationViewInput.h; sourceTree = "<group>"; };
-		733970841D48BCAB006B33B0 /* TCConversationViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationViewOutput.h; sourceTree = "<group>"; };
-		733970851D48BD88006B33B0 /* TCConversationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationController.h; sourceTree = "<group>"; };
-		733970861D48BD88006B33B0 /* TCConversationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConversationController.m; sourceTree = "<group>"; };
-		733970881D48C118006B33B0 /* TCConversationRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationRouter.h; sourceTree = "<group>"; };
-		733970891D48C118006B33B0 /* TCConversationRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConversationRouter.m; sourceTree = "<group>"; };
-		7339708B1D48C132006B33B0 /* TCConversationRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationRouterInput.h; sourceTree = "<group>"; };
+		733970771D48BA16006B33B0 /* TCConversationsModuleAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationsModuleAssembly.h; sourceTree = "<group>"; };
+		733970781D48BA16006B33B0 /* TCConversationsModuleAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConversationsModuleAssembly.m; sourceTree = "<group>"; };
+		7339707A1D48BA82006B33B0 /* TCConversationsInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationsInteractor.h; sourceTree = "<group>"; };
+		7339707B1D48BA82006B33B0 /* TCConversationsInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConversationsInteractor.m; sourceTree = "<group>"; };
+		7339707D1D48BA96006B33B0 /* TCConversationsInteractorInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCConversationsInteractorInput.h; sourceTree = "<group>"; };
+		7339707E1D48BAA2006B33B0 /* TCConversationsInteractorOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCConversationsInteractorOutput.h; sourceTree = "<group>"; };
+		7339707F1D48BC05006B33B0 /* TCConversationsPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationsPresenter.h; sourceTree = "<group>"; };
+		733970801D48BC05006B33B0 /* TCConversationsPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConversationsPresenter.m; sourceTree = "<group>"; };
+		733970821D48BC51006B33B0 /* TCConversationsPresenterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationsPresenterInput.h; sourceTree = "<group>"; };
+		733970831D48BC9E006B33B0 /* TCConversationsViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationsViewInput.h; sourceTree = "<group>"; };
+		733970841D48BCAB006B33B0 /* TCConversationsViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationsViewOutput.h; sourceTree = "<group>"; };
+		733970851D48BD88006B33B0 /* TCConversationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationsController.h; sourceTree = "<group>"; };
+		733970861D48BD88006B33B0 /* TCConversationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConversationsController.m; sourceTree = "<group>"; };
+		733970881D48C118006B33B0 /* TCConversationsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationsRouter.h; sourceTree = "<group>"; };
+		733970891D48C118006B33B0 /* TCConversationsRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConversationsRouter.m; sourceTree = "<group>"; };
+		7339708B1D48C132006B33B0 /* TCConversationsRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationsRouterInput.h; sourceTree = "<group>"; };
 		7339708C1D48C1C9006B33B0 /* Viper Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Viper Sample-Prefix.pch"; sourceTree = "<group>"; };
 		733970961D48F5D1006B33B0 /* ApplicationConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationConfigurator.h; sourceTree = "<group>"; };
 		733970971D48F60B006B33B0 /* ApplicationConfiguratorImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationConfiguratorImpl.h; sourceTree = "<group>"; };
@@ -55,10 +57,25 @@
 		7339709C1D48F7A4006B33B0 /* TCMessagesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMessagesService.h; sourceTree = "<group>"; };
 		7339709D1D48F7BB006B33B0 /* TCLayerMessagesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLayerMessagesService.h; sourceTree = "<group>"; };
 		7339709E1D48F7BB006B33B0 /* TCLayerMessagesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLayerMessagesService.m; sourceTree = "<group>"; };
-		83288893BA87FEEF5F33EFE0 /* Pods-ViperSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperSample/Pods-ViperSample.debug.xcconfig"; sourceTree = "<group>"; };
-		A73E6E7D5595BC2C779E38B6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7DFA0FB003FAE8964C07D5C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		C8DA2CA4506CD074707C43BF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		73EB2E571D4D3FDA004F4CB2 /* TCConversationModuleAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationModuleAssembly.h; sourceTree = "<group>"; };
+		73EB2E581D4D3FDA004F4CB2 /* TCConversationModuleAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConversationModuleAssembly.m; sourceTree = "<group>"; };
+		73EB2E5A1D4D3FDA004F4CB2 /* TCConversationInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationInteractor.h; sourceTree = "<group>"; };
+		73EB2E5B1D4D3FDA004F4CB2 /* TCConversationInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConversationInteractor.m; sourceTree = "<group>"; };
+		73EB2E5C1D4D3FDA004F4CB2 /* TCConversationInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationInteractorInput.h; sourceTree = "<group>"; };
+		73EB2E5D1D4D3FDA004F4CB2 /* TCConversationInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationInteractorOutput.h; sourceTree = "<group>"; };
+		73EB2E5F1D4D3FDA004F4CB2 /* TCConversationPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationPresenter.h; sourceTree = "<group>"; };
+		73EB2E601D4D3FDA004F4CB2 /* TCConversationPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConversationPresenter.m; sourceTree = "<group>"; };
+		73EB2E611D4D3FDA004F4CB2 /* TCConversationPresenterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationPresenterInput.h; sourceTree = "<group>"; };
+		73EB2E631D4D3FDA004F4CB2 /* TCConversationRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationRouter.h; sourceTree = "<group>"; };
+		73EB2E641D4D3FDA004F4CB2 /* TCConversationRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConversationRouter.m; sourceTree = "<group>"; };
+		73EB2E651D4D3FDA004F4CB2 /* TCConversationRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationRouterInput.h; sourceTree = "<group>"; };
+		73EB2E671D4D3FDA004F4CB2 /* TCConversationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationController.h; sourceTree = "<group>"; };
+		73EB2E681D4D3FDA004F4CB2 /* TCConversationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConversationController.m; sourceTree = "<group>"; };
+		73EB2E691D4D3FDA004F4CB2 /* TCConversationViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationViewInput.h; sourceTree = "<group>"; };
+		73EB2E6A1D4D3FDA004F4CB2 /* TCConversationViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConversationViewOutput.h; sourceTree = "<group>"; };
+		80F34A1C3CC9C9B643051973 /* Pods_ViperSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F42DE211BB0337C1882166C /* Pods-ViperSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperSample/Pods-ViperSample.debug.xcconfig"; sourceTree = "<group>"; };
+		FB6E618F24CA2180DEED20AC /* Pods-ViperSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperSample/Pods-ViperSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,32 +83,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA90C358DCD43A554E1DF778 /* libPods.a in Frameworks */,
-				4683521E74980E66EA6ECDEF /* Pods_ViperSample.framework in Frameworks */,
+				5A2F77E02089A19BBAF41754 /* Pods_ViperSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E65FD4442BBBD2A063B381B /* Pods */ = {
+		3005CC4D2F2E312BBB7E683C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A7DFA0FB003FAE8964C07D5C /* Pods.debug.xcconfig */,
-				C8DA2CA4506CD074707C43BF /* Pods.release.xcconfig */,
-				83288893BA87FEEF5F33EFE0 /* Pods-ViperSample.debug.xcconfig */,
-				075B48F0F3B0BF96B90B2E0D /* Pods-ViperSample.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		42282D5AC81873767316C28A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A73E6E7D5595BC2C779E38B6 /* libPods.a */,
-				3929B169A2565488967936FD /* Pods_ViperSample.framework */,
+				80F34A1C3CC9C9B643051973 /* Pods_ViperSample.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AB7A800BFA205FA871E5DDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F42DE211BB0337C1882166C /* Pods-ViperSample.debug.xcconfig */,
+				FB6E618F24CA2180DEED20AC /* Pods-ViperSample.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		73396FA61D48A0D0006B33B0 = {
@@ -99,8 +112,8 @@
 			children = (
 				73396FB11D48A0D0006B33B0 /* ViperSample */,
 				73396FB01D48A0D0006B33B0 /* Products */,
-				0E65FD4442BBBD2A063B381B /* Pods */,
-				42282D5AC81873767316C28A /* Frameworks */,
+				3AB7A800BFA205FA871E5DDE /* Pods */,
+				3005CC4D2F2E312BBB7E683C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,12 +233,13 @@
 		73396FD81D48B83D006B33B0 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				73396FD91D48B874006B33B0 /* ConversationModule */,
+				73EB2E551D4D3FDA004F4CB2 /* ConversationModule */,
+				73396FD91D48B874006B33B0 /* ConversationsModule */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		73396FD91D48B874006B33B0 /* ConversationModule */ = {
+		73396FD91D48B874006B33B0 /* ConversationsModule */ = {
 			isa = PBXGroup;
 			children = (
 				73396FDA1D48B89F006B33B0 /* Assembly */,
@@ -234,14 +248,14 @@
 				73396FE71D48B8E4006B33B0 /* Router */,
 				73396FEB1D48B8E4006B33B0 /* View */,
 			);
-			path = ConversationModule;
+			path = ConversationsModule;
 			sourceTree = "<group>";
 		};
 		73396FDA1D48B89F006B33B0 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				733970771D48BA16006B33B0 /* TCConversationModuleAssembly.h */,
-				733970781D48BA16006B33B0 /* TCConversationModuleAssembly.m */,
+				733970771D48BA16006B33B0 /* TCConversationsModuleAssembly.h */,
+				733970781D48BA16006B33B0 /* TCConversationsModuleAssembly.m */,
 			);
 			path = Assembly;
 			sourceTree = "<group>";
@@ -249,10 +263,10 @@
 		73396FDB1D48B8E4006B33B0 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				7339707A1D48BA82006B33B0 /* TCConversationInteractor.h */,
-				7339707B1D48BA82006B33B0 /* TCConversationInteractor.m */,
-				7339707D1D48BA96006B33B0 /* TCConversationInteractorInput.h */,
-				7339707E1D48BAA2006B33B0 /* TCConversationInteractorOutput.h */,
+				7339707A1D48BA82006B33B0 /* TCConversationsInteractor.h */,
+				7339707B1D48BA82006B33B0 /* TCConversationsInteractor.m */,
+				7339707D1D48BA96006B33B0 /* TCConversationsInteractorInput.h */,
+				7339707E1D48BAA2006B33B0 /* TCConversationsInteractorOutput.h */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -260,9 +274,9 @@
 		73396FE01D48B8E4006B33B0 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				7339707F1D48BC05006B33B0 /* TCConversationPresenter.h */,
-				733970801D48BC05006B33B0 /* TCConversationPresenter.m */,
-				733970821D48BC51006B33B0 /* TCConversationPresenterInput.h */,
+				7339707F1D48BC05006B33B0 /* TCConversationsPresenter.h */,
+				733970801D48BC05006B33B0 /* TCConversationsPresenter.m */,
+				733970821D48BC51006B33B0 /* TCConversationsPresenterInput.h */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -270,9 +284,9 @@
 		73396FE71D48B8E4006B33B0 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				733970881D48C118006B33B0 /* TCConversationRouter.h */,
-				733970891D48C118006B33B0 /* TCConversationRouter.m */,
-				7339708B1D48C132006B33B0 /* TCConversationRouterInput.h */,
+				733970881D48C118006B33B0 /* TCConversationsRouter.h */,
+				733970891D48C118006B33B0 /* TCConversationsRouter.m */,
+				7339708B1D48C132006B33B0 /* TCConversationsRouterInput.h */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -280,10 +294,10 @@
 		73396FEB1D48B8E4006B33B0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				733970851D48BD88006B33B0 /* TCConversationController.h */,
-				733970861D48BD88006B33B0 /* TCConversationController.m */,
-				733970831D48BC9E006B33B0 /* TCConversationViewInput.h */,
-				733970841D48BCAB006B33B0 /* TCConversationViewOutput.h */,
+				733970851D48BD88006B33B0 /* TCConversationsController.h */,
+				733970861D48BD88006B33B0 /* TCConversationsController.m */,
+				733970831D48BC9E006B33B0 /* TCConversationsViewInput.h */,
+				733970841D48BCAB006B33B0 /* TCConversationsViewOutput.h */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -316,6 +330,69 @@
 			name = MessagesService;
 			sourceTree = "<group>";
 		};
+		73EB2E551D4D3FDA004F4CB2 /* ConversationModule */ = {
+			isa = PBXGroup;
+			children = (
+				73EB2E561D4D3FDA004F4CB2 /* Assembly */,
+				73EB2E591D4D3FDA004F4CB2 /* Interactor */,
+				73EB2E5E1D4D3FDA004F4CB2 /* Presenter */,
+				73EB2E621D4D3FDA004F4CB2 /* Router */,
+				73EB2E661D4D3FDA004F4CB2 /* View */,
+			);
+			path = ConversationModule;
+			sourceTree = "<group>";
+		};
+		73EB2E561D4D3FDA004F4CB2 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				73EB2E571D4D3FDA004F4CB2 /* TCConversationModuleAssembly.h */,
+				73EB2E581D4D3FDA004F4CB2 /* TCConversationModuleAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		73EB2E591D4D3FDA004F4CB2 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				73EB2E5A1D4D3FDA004F4CB2 /* TCConversationInteractor.h */,
+				73EB2E5B1D4D3FDA004F4CB2 /* TCConversationInteractor.m */,
+				73EB2E5C1D4D3FDA004F4CB2 /* TCConversationInteractorInput.h */,
+				73EB2E5D1D4D3FDA004F4CB2 /* TCConversationInteractorOutput.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		73EB2E5E1D4D3FDA004F4CB2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				73EB2E5F1D4D3FDA004F4CB2 /* TCConversationPresenter.h */,
+				73EB2E601D4D3FDA004F4CB2 /* TCConversationPresenter.m */,
+				73EB2E611D4D3FDA004F4CB2 /* TCConversationPresenterInput.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		73EB2E621D4D3FDA004F4CB2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				73EB2E631D4D3FDA004F4CB2 /* TCConversationRouter.h */,
+				73EB2E641D4D3FDA004F4CB2 /* TCConversationRouter.m */,
+				73EB2E651D4D3FDA004F4CB2 /* TCConversationRouterInput.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		73EB2E661D4D3FDA004F4CB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				73EB2E671D4D3FDA004F4CB2 /* TCConversationController.h */,
+				73EB2E681D4D3FDA004F4CB2 /* TCConversationController.m */,
+				73EB2E691D4D3FDA004F4CB2 /* TCConversationViewInput.h */,
+				73EB2E6A1D4D3FDA004F4CB2 /* TCConversationViewOutput.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -323,12 +400,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73396FC61D48A0D0006B33B0 /* Build configuration list for PBXNativeTarget "ViperSample" */;
 			buildPhases = (
-				2CEFFB9016F36455DF92EC60 /* Check Pods Manifest.lock */,
+				C20FA3363FBC751C01D493E6 /* 📦 Check Pods Manifest.lock */,
 				73396FAB1D48A0D0006B33B0 /* Sources */,
 				73396FAC1D48A0D0006B33B0 /* Frameworks */,
 				73396FAD1D48A0D0006B33B0 /* Resources */,
-				0DD7DE75929D0494E5B5CE9C /* Embed Pods Frameworks */,
-				DB98963A49BEDB0525D66962 /* Copy Pods Resources */,
+				D949A1BC484288B3A9E242FF /* 📦 Embed Pods Frameworks */,
+				5EBC6167426DA05E4310D6CE /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -384,29 +461,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DD7DE75929D0494E5B5CE9C /* Embed Pods Frameworks */ = {
+		5EBC6167426DA05E4310D6CE /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperSample/Pods-ViperSample-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperSample/Pods-ViperSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2CEFFB9016F36455DF92EC60 /* Check Pods Manifest.lock */ = {
+		C20FA3363FBC751C01D493E6 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,19 +491,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		DB98963A49BEDB0525D66962 /* Copy Pods Resources */ = {
+		D949A1BC484288B3A9E242FF /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperSample/Pods-ViperSample-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperSample/Pods-ViperSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -438,13 +515,18 @@
 			files = (
 				73396FD21D48AA4A006B33B0 /* AppDelegate.m in Sources */,
 				733970991D48F60B006B33B0 /* ApplicationConfiguratorImpl.m in Sources */,
-				7339708A1D48C118006B33B0 /* TCConversationRouter.m in Sources */,
-				7339707C1D48BA82006B33B0 /* TCConversationInteractor.m in Sources */,
-				733970791D48BA16006B33B0 /* TCConversationModuleAssembly.m in Sources */,
-				733970871D48BD88006B33B0 /* TCConversationController.m in Sources */,
-				733970811D48BC05006B33B0 /* TCConversationPresenter.m in Sources */,
+				73EB2E6C1D4D3FDA004F4CB2 /* TCConversationInteractor.m in Sources */,
+				7339708A1D48C118006B33B0 /* TCConversationsRouter.m in Sources */,
+				7339707C1D48BA82006B33B0 /* TCConversationsInteractor.m in Sources */,
+				733970791D48BA16006B33B0 /* TCConversationsModuleAssembly.m in Sources */,
+				73EB2E6D1D4D3FDA004F4CB2 /* TCConversationPresenter.m in Sources */,
+				73EB2E6B1D4D3FDA004F4CB2 /* TCConversationModuleAssembly.m in Sources */,
+				733970871D48BD88006B33B0 /* TCConversationsController.m in Sources */,
+				733970811D48BC05006B33B0 /* TCConversationsPresenter.m in Sources */,
 				7339709F1D48F7BB006B33B0 /* TCLayerMessagesService.m in Sources */,
+				73EB2E6E1D4D3FDA004F4CB2 /* TCConversationRouter.m in Sources */,
 				73396FB41D48A0D0006B33B0 /* main.m in Sources */,
+				73EB2E6F1D4D3FDA004F4CB2 /* TCConversationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,7 +629,7 @@
 		};
 		73396FC71D48A0D0006B33B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83288893BA87FEEF5F33EFE0 /* Pods-ViperSample.debug.xcconfig */;
+			baseConfigurationReference = 9F42DE211BB0337C1882166C /* Pods-ViperSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -562,7 +644,7 @@
 		};
 		73396FC81D48A0D0006B33B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 075B48F0F3B0BF96B90B2E0D /* Pods-ViperSample.release.xcconfig */;
+			baseConfigurationReference = FB6E618F24CA2180DEED20AC /* Pods-ViperSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
